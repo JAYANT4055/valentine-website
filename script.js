@@ -191,7 +191,7 @@ function drawText() {
         if (window.innerWidth < 600) {
             drawTextWithLineBreaks(["I love you so much Vatss, more than your Sunflower".], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("I love you so much Vatss, more than your Sunflower", canvas.width/2, canvas.height/2);
+            context.fillText("I love you so much Vatss, more than your Sunflower" , canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
